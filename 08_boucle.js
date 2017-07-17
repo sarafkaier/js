@@ -32,7 +32,7 @@ combien de temps me faut-il pour avoir 2000€ sur mon compte ?
 ----------------------------------------*/
 
 var monCompte = 1000;
-var temps = 0;
+var temps = 1;
 while (monCompte < 2000) {
     monCompte += 50;
     temps++;
@@ -48,4 +48,4 @@ for(var mesSous = 1000; mesSous < 2000 ; mesSous +=50) {
     document.write("<h3>Le mois suivant j'ai : " + mesSous + "</h3>");
     tps++;
 }
-document.write("<h3>Il aura fallu " + tps + " mois.</h3>"); 
+document.write("<h3>Il aura fallu " + tps + " mois.</h3>");
